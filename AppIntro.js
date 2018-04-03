@@ -34,14 +34,14 @@ const defaulStyles = {
   info: {
     flex: 0.5,
     alignItems: 'center',
-    padding: 30,
+    padding: 0,
   },
   slide: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#9DD6EB',
-    padding: 15,
+    padding: 0,
   },
   title: {
     color: '#fff',
@@ -88,7 +88,9 @@ const defaulStyles = {
     alignItems: 'center',
   },
   btnContainer: {
-    flex: 0.2,
+    width: '90%',
+    position: 'absolute',
+    left: '5%',
     justifyContent: 'center',
     alignItems: 'center',
     height: 50,
@@ -100,7 +102,6 @@ const defaulStyles = {
   },
   full: {
     height: 80,
-    width: 100,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -206,14 +207,6 @@ export default class AppIntro extends Component {
     }
     return (
       <View style={[this.styles.paginationContainer]}>
-        {this.props.showSkipButton ? <SkipButton
-          {...this.props}
-          {...this.state}
-          isSkipBtnShow={isSkipBtnShow}
-          styles={this.styles}
-          onSkipBtnClick={() => this.props.onSkipBtnClick(index)} /> :
-          <View style={this.styles.btnContainer} />
-        }
         {this.props.showDots && RenderDots(index, total, {
           ...this.props,
           styles: this.styles
