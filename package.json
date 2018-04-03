@@ -1,0 +1,62 @@
+{
+  "_from": "git+https://github.com/merryjs/react-native-app-intro.git",
+  "_id": "react-native-app-intro@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-qHpoc6+X0vliorocudlkKdZQwps=",
+  "_location": "/react-native-app-intro",
+  "_phantomChildren": {
+    "create-react-class": "15.6.3",
+    "prop-types": "15.6.1",
+    "react-timer-mixin": "0.13.3"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-app-intro@git+https://github.com/merryjs/react-native-app-intro.git",
+    "name": "react-native-app-intro",
+    "escapedName": "react-native-app-intro",
+    "rawSpec": "git+https://github.com/merryjs/react-native-app-intro.git",
+    "saveSpec": "git+https://github.com/merryjs/react-native-app-intro.git",
+    "fetchSpec": "https://github.com/merryjs/react-native-app-intro.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/merryjs/react-native-app-intro.git#b5bbdbbd8ff8be0842d22c77a9d857cc30e413d8",
+  "_spec": "react-native-app-intro@git+https://github.com/merryjs/react-native-app-intro.git",
+  "_where": "/Users/quintusnguyen/Sites/molli-project/mobile",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/fuyaode/react-native-app-intro/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "assign-deep": "^0.4.5",
+    "prop-types": "^15.6.0",
+    "react-native-swiper": "git+https://github.com/merryjs/react-native-swiper.git"
+  },
+  "deprecated": false,
+  "description": "react-native-app-intro is a react native plugin implementing a parallax effect welcome page using base on react-native-swiper , similar to the one found in Google's app like Sheet, Drive, Docs...",
+  "homepage": "https://github.com/fuyaode/react-native-app-intro#readme",
+  "keywords": [
+    "swiper",
+    "ProductTour",
+    "App",
+    "Intro",
+    "ios",
+    "android",
+    "react-component",
+    "react-native"
+  ],
+  "license": "ISC",
+  "main": "AppIntro.js",
+  "name": "react-native-app-intro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuyaode/react-native-app-intro.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.5"
+}
